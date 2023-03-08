@@ -14,17 +14,26 @@ set to "URLs starting with": https://online.mun.ca
 p, pre, b, i, strong, .dco_c > label, .d2l-datalist .vui-list, .daylight .d2l-textblock-secondary, span.d2l-textblock, .d2l-calendar-mini-weekend, .d2l-calendar-mini th > abbr {
     color: #FFFFFF !important;
 }
+/*affects plaintext*/
+.d2l-htmlblock-untrusted{
+    color: #FFFFFF !important;
+}
 h1, h3, h4, h5, h6, d2l-card-link-text, d2l-tab-text  {
     color: #FFFFFF !important;
 }
 .d2l-course-banner-container {
     display: none !important;
 }
+/*affects drop_down menu colour*/
+.d2l-navigation-s-group-text{
+    color: #1565C0 !important;
+}
+
 .d2l-navigation-s-main, .d2l-navigation-s-header, .daylight .homepage-container div:last-of-type .d2l-widget:last-child, .daylight .d2l-widget .d2l-tile .d2l-widget-padding-full .d2l-custom-widget .d2l-widget-header d2l-custom-widget d2l-widget-header .d2l-homepage-header-wrapper {
-    background: #FFFFFF !important; 
+    background: #010203 !important; 
     color: #FFFFFF !important;
-    background-color: #FFFFFF !important; 
-    border-bottom: 1px solid #FFFFFF !important;
+    background-color: #272727 !important; 
+    border-bottom: 1px solid #000000 !important;
 }
 /*affects header bar*/
 .d2l-branding-navigation-background-color {
@@ -49,16 +58,19 @@ body, header, .d2l-navigation-s, .d2l-navigation-s-no-login, .d2l-navigation-s-b
     border: 1px solid lightgrey;
     border-radius: 1px;
 }
+/*?*/
 .d2l-navigation-s-shadow-drop-border {
     color: #FFFFFF !important;
 }
 .d2l-navigation-s-shadow-gradient {
     display: none;
 }
+/*background colour of content boxes*/
 .d2l-widget-content-padding {
     background-color: #212121 !important;
     padding: 0; 
 }
+/*active links*/
 a {
     color: #1565C0 !important;
     text-decoration: none !important;
@@ -113,10 +125,11 @@ a {
 .d2l-page-main {
     background-color: #212121 !important;
 }
-.d2l-card-footer .d2l-card-link-container .d2l-focusable .d2l-card-container .d2l-visible-on-ancestor-target .d2l-card-badge { /* Col 8 Buttons (Cards)*/
+.d2l-card-footer .d2l-card-link-container .d2l-focusable .d2l-card-container .d2l-visible-on-ancestor-target .d2l-card-badge .d2l-enrollment-card{ /* Col 8 Buttons (Cards)*/
     background-color: #212121 !important;
     border-color: #272727;
 }
+
 .homepage-col-4 {
     border-color: #272727 !important;
     border-style: none;
