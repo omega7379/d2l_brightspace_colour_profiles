@@ -18,6 +18,7 @@ p, pre, b, i, strong, .dco_c > label, .d2l-datalist .vui-list, .daylight .d2l-te
 .d2l-textblock{
     color: #FFFFFF !important;
 }
+
 /*affects plaintext*/
 .d2l-htmlblock-untrusted{
     color: #FFFFFF !important;
@@ -136,9 +137,17 @@ a {
 .d2l-page-main {
     background-color: #212121 !important;
 }
-.d2l-card-footer .d2l-card-link-container .d2l-focusable .d2l-card-container .d2l-visible-on-ancestor-target .d2l-card-badge .d2l-enrollment-card{ /* Col 8 Buttons (Cards)*/
+.d2l-card-footer .d2l-card-link-container .d2l-focusable .d2l-card-container .d2l-visible-on-ancestor-target .d2l-card-badge .d2l-enrollment-card { /* Col 8 Buttons (Cards)*/
     background-color: #212121 !important;
     border-color: #272727;
+}
+.d2l-card-container{
+    color: #FFFFFF !important;
+    background-color: #212121 !important;
+}
+d2l-card{
+    background-color: #010203 !important;
+    color: #FFF !important;
 }
 .homepage-col-4 {
     border-color: #272727 !important;
@@ -149,4 +158,7 @@ a {
     border-color: #272727 !important;
     border-style: none;
     width: 0%;
+}
+.help-block{
+    color: #FFFFFF !important;
 }
