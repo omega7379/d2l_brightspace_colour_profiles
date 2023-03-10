@@ -14,11 +14,23 @@ set to "URLs starting with": https://link.to.d2l
 p, pre, b, i, strong, .dco_c > label, .d2l-datalist .vui-list, .daylight .d2l-textblock-secondary, span.d2l-textblock, .d2l-calendar-mini-weekend, .d2l-calendar-mini th > abbr {
     color: #FFFFFF !important;
 }
+/*affects upcoming events details drop menu*/
+.d2l-textblock{
+    color: #FFFFFF !important;
+}
 /*affects plaintext*/
 .d2l-htmlblock-untrusted{
     color: #FFFFFF !important;
 }
-h1, h3, h4, h5, h6, d2l-card-link-text, d2l-tab-text  {
+/*affects buffer borders*/
+.d2l-tile{
+    background-color: #272727 !important;
+}
+/*affects heading titles*/
+.d2l-heading{
+    color: #FFFFFF !important;
+}
+h1, h3, h4, h5, h6, d2l-card-link-text, d2l-tab-text {
     color: #FFFFFF !important;
 }
 .d2l-course-banner-container {
@@ -28,7 +40,6 @@ h1, h3, h4, h5, h6, d2l-card-link-text, d2l-tab-text  {
 .d2l-navigation-s-group-text{
     color: #1565C0 !important;
 }
-
 .d2l-navigation-s-main, .d2l-navigation-s-header, .daylight .homepage-container div:last-of-type .d2l-widget:last-child, .daylight .d2l-widget .d2l-tile .d2l-widget-padding-full .d2l-custom-widget .d2l-widget-header d2l-custom-widget d2l-widget-header .d2l-homepage-header-wrapper {
     background: #010203 !important; 
     color: #FFFFFF !important;
@@ -129,7 +140,6 @@ a {
     background-color: #212121 !important;
     border-color: #272727;
 }
-
 .homepage-col-4 {
     border-color: #272727 !important;
     border-style: none;
